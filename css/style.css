@@ -8,8 +8,11 @@
 body {
   background: #0033CC;
   /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0033CC, #FFAE00);
   /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0033CC, #FFAE00);
   /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0033CC, #FFAE00);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #0033CC, #FFAE00);
   /* Standard syntax */
@@ -24,8 +27,11 @@ body {
     position: absolute;
     background: #1D41B5;
     /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #1D41B5, #FFAE00);
     /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #1D41B5, #FFAE00);
     /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #1D41B5, #FFAE00);
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #1D41B5, #FFAE00);
     /* Standard syntax */ }
@@ -36,8 +42,11 @@ body {
     right: 100px;
     background: #0033CC;
     /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0033CC, #A3824A);
     /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0033CC, #A3824A);
     /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0033CC, #A3824A);
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #0033CC, #A3824A);
     /* Standard syntax */ }
@@ -68,8 +77,11 @@ body {
     right: 200px;
     background: #0033CC;
     /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0033CC, #A3824A);
     /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0033CC, #A3824A);
     /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0033CC, #A3824A);
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #0033CC, #A3824A);
     /* Standard syntax */ }
@@ -106,3 +118,5 @@ body {
     text-align: right; }
   .container .last {
     margin-bottom: 80px; }
+
+/*# sourceMappingURL=style.css.map */
