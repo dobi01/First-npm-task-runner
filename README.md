@@ -1,1 +1,1 @@
-# Zadanie-7.5
+# Zadanie-7.4-7.6
