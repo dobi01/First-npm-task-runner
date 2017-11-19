@@ -4,22 +4,24 @@
   "description": "test test test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "glob-run nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dobi01/learning-git2.git"
+    "url": "git+https://github.com/dobi01/Zadanie-7.5.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dobi01/learning-git2/issues"
+    "url": "https://github.com/dobi01/Zadanie-7.5/issues"
   },
-  "homepage": "https://github.com/dobi01/learning-git2#readme",
+  "homepage": "https://github.com/dobi01/Zadanie-7.5#readme",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.18.13",
+    "glob-run": "^0.1.6",
     "nu-html-checker": "^0.1.0"
   }
 }
