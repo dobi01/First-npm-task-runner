@@ -1,5 +1,5 @@
 {
-  "name": "Zadanie-7.5",
+  "name": "first-npm-task-runner",
   "version": "1.0.0",
   "description": "test test test",
   "main": "index.js",
@@ -12,21 +12,22 @@
     "build:sass": "sass --update --force --sourcemap=none sass:css",
     "build:autoprefixer": "autoprefixer-cli css/style.css",
 
-    "watch": "parallelshell \"npm run watch:sassprefixer\" \"npm run watch:browser-sync\" ",
-    "watch:sassprefixer": "onchange sass/*.scss -- npm run build:sass && -- autoprefixer-cli css/style.css",
+    "watch": "parallelshell \"npm run watch:sass\" \"npm run watch:autoprefixer\" \"npm run watch:browser-sync\" ",
+    "watch:sass": "sass --watch sass:css",
+    "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css",
     "watch:browser-sync": "browser-sync start --server --files \"css/*.css\" \"*.html\" "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dobi01/Zadanie-7.5.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dobi01/Zadanie-7.5/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/dobi01/Zadanie-7.5#readme",
+  "homepage": "",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.18.13",
